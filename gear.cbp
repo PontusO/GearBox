@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gear" />
+		<Option pch_mode="2" />
+		<Option compiler="sdcc" />
+		<Build>
+			<Target title="Host">
+				<Option output="bin/Debug/gear" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DHOST" />
+				</Compiler>
+			</Target>
+			<Target title="8051_Target">
+				<Option output="bin/Release/gear" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Compiler>
+					<Add option="--std-c99 --std-sdcc99" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../gear" />
+			<Add directory="system" />
+		</Compiler>
+		<Unit filename="doc.txt" />
+		<Unit filename="doxygen/html/accelerator_8h-source.html" />
+		<Unit filename="doxygen/html/annotated.html" />
+		<Unit filename="doxygen/html/clutch_8h-source.html" />
+		<Unit filename="doxygen/html/clutch_8h.html" />
+		<Unit filename="doxygen/html/doxygen.css" />
+		<Unit filename="doxygen/html/doxygen.png" />
+		<Unit filename="doxygen/html/files.html" />
+		<Unit filename="doxygen/html/functions.html" />
+		<Unit filename="doxygen/html/functions_vars.html" />
+		<Unit filename="doxygen/html/gear_8h-source.html" />
+		<Unit filename="doxygen/html/gear_8h.html" />
+		<Unit filename="doxygen/html/globals.html" />
+		<Unit filename="doxygen/html/globals_defs.html" />
+		<Unit filename="doxygen/html/globals_enum.html" />
+		<Unit filename="doxygen/html/globals_eval.html" />
+		<Unit filename="doxygen/html/globals_func.html" />
+		<Unit filename="doxygen/html/globals_type.html" />
+		<Unit filename="doxygen/html/globals_vars.html" />
+		<Unit filename="doxygen/html/group__clutch.html" />
+		<Unit filename="doxygen/html/group__gear.html" />
+		<Unit filename="doxygen/html/group__lc.html" />
+		<Unit filename="doxygen/html/group__parameters.html" />
+		<Unit filename="doxygen/html/group__pt.html" />
+		<Unit filename="doxygen/html/group__system.html" />
+		<Unit filename="doxygen/html/index.html" />
+		<Unit filename="doxygen/html/lc-switch_8h-source.html" />
+		<Unit filename="doxygen/html/lc-switch_8h.html" />
+		<Unit filename="doxygen/html/lc_8h-source.html" />
+		<Unit filename="doxygen/html/lc_8h.html" />
+		<Unit filename="doxygen/html/modules.html" />
+		<Unit filename="doxygen/html/param__db_8h-source.html" />
+		<Unit filename="doxygen/html/parameters_8h-source.html" />
+		<Unit filename="doxygen/html/parameters_8h.html" />
+		<Unit filename="doxygen/html/pt_8h-source.html" />
+		<Unit filename="doxygen/html/pt_8h.html" />
+		<Unit filename="doxygen/html/rules_8h-source.html" />
+		<Unit filename="doxygen/html/struct__gear__ctrl-members.html" />
+		<Unit filename="doxygen/html/struct__gear__ctrl.html" />
+		<Unit filename="doxygen/html/struct__pt__clutch-members.html" />
+		<Unit filename="doxygen/html/struct__pt__clutch.html" />
+		<Unit filename="doxygen/html/struct__pt__gear-members.html" />
+		<Unit filename="doxygen/html/struct__pt__gear.html" />
+		<Unit filename="doxygen/html/system_8h-source.html" />
+		<Unit filename="doxygen/html/system_8h.html" />
+		<Unit filename="doxygen/html/tab_b.gif" />
+		<Unit filename="doxygen/html/tab_l.gif" />
+		<Unit filename="doxygen/html/tab_r.gif" />
+		<Unit filename="doxygen/html/tabs.css" />
+		<Unit filename="drivers/gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="drivers/gpio.h" />
+		<Unit filename="gearbox/clutch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gearbox/clutch.h" />
+		<Unit filename="gearbox/controller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gearbox/controller.h" />
+		<Unit filename="gearbox/gear.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gearbox/gear.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parameters/host_parameters.c">
+			<Option compilerVar="CC" />
+			<Option target="Host" />
+		</Unit>
+		<Unit filename="parameters/param_db.h" />
+		<Unit filename="parameters/parameters.h" />
+		<Unit filename="parameters/target_parameters.c">
+			<Option compilerVar="CC" />
+			<Option target="8051_Target" />
+		</Unit>
+		<Unit filename="pedals/accelerator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pedals/accelerator.h" />
+		<Unit filename="pedals/brake.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pedals/brake.h" />
+		<Unit filename="pedals/paddles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pedals/paddles.h" />
+		<Unit filename="pt/graham-pt.h" />
+		<Unit filename="pt/lc-switch.h" />
+		<Unit filename="pt/lc.h" />
+		<Unit filename="pt/pt-factory.h" />
+		<Unit filename="pt/pt-sem.h" />
+		<Unit filename="pt/pt.h" />
+		<Unit filename="rules/rules.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rules/rules.h" />
+		<Unit filename="system/system.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,6 @@
+Port allocations
+
+The intended target architecture is C8051F120 and its related ports.
+
+  P3 Is the gear levers sense port
+  P2 Is used for paddles and brake pedal

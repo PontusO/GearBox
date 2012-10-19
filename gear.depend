@@ -1,0 +1,207 @@
+# depslib dependency file v1.0
+1290065222 source:/home/pontuso/funstuff/terminal/src/gear/gearbox/clutch.c
+	<system.h>
+	<gearbox/clutch.h>
+	<string.h>
+
+1290000891 /home/pontuso/funstuff/terminal/src/gear/pt/pt.h
+	"lc.h"
+	"pt-factory.h"
+
+1150100568 /home/pontuso/funstuff/terminal/src/gear/pt/lc.h
+	"lc-switch.h"
+
+1150100568 /home/pontuso/funstuff/terminal/src/gear/pt/lc-switch.h
+
+1290007135 /home/pontuso/funstuff/terminal/src/gear/gearbox/clutch.h
+
+1280239030 source:/home/pontuso/funstuff/terminal/src/gear/main.c
+	<system.h>
+	<gearbox/clutch.h>
+	<gearbox/gear.h>
+	<pedals/accelerator.h>
+	<pedals/paddles.h>
+	<parameters/parameters.h>
+	<gearbox/controller.h>
+
+1280145528 source:/home/pontuso/funstuff/terminal/src/gear/pedals/accelerator.c
+	<float.h>
+	"system/system.h"
+	"pedals/accelerator.h"
+
+1275053356 /home/pontuso/funstuff/terminal/src/gear/pedals/accelerator.h
+
+1281702352 source:/home/pontuso/funstuff/terminal/src/gear/gearbox/gear.c
+	<system.h>
+	<pt/pt.h>
+	<gearbox/gear.h>
+
+1290069021 /home/pontuso/funstuff/terminal/src/gear/gearbox/gear.h
+
+1281432677 /home/pontuso/funstuff/terminal/src/gear/system/system.h
+	<pt/pt.h>
+	<parameters/param_db.h>
+	<C8051F020.h>
+
+1275048586 /home/pontuso/funstuff/terminal/src/gear/parameters/param_db.h
+
+1275555275 source:/home/pontuso/funstuff/terminal/src/gear/parameters/host_parameters.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"parameters/parameters.h"
+	"parameters/param_db.h"
+
+1275564550 /home/pontuso/funstuff/terminal/src/gear/parameters/parameters.h
+
+1280477546 source:/home/pontuso/funstuff/terminal/src/gear/parameters/target_parameters.c
+	<system/system.h>
+	<stdio.h>
+	<string.h>
+	"parameters.h"
+
+1290004898 source:/home/pontuso/funstuff/terminal/src/gear/gearbox/controller.c
+	<system/system.h>
+	<gearbox/controller.h>
+	<rules/rules.h>
+	<gearbox/clutch.h>
+	<gearbox/gear.h>
+
+1290004982 /home/pontuso/funstuff/terminal/src/gear/gearbox/controller.h
+	<pt/pt-sem.h>
+
+1109241419 /home/pontuso/funstuff/terminal/src/gear/pt/pt-sem.h
+	"pt-sem.h"
+	"pt.h"
+
+1290005043 /home/pontuso/funstuff/terminal/src/gear/rules/rules.h
+	<gearbox/controller.h>
+
+1280223872 /home/pontuso/funstuff/terminal/src/gear/pedals/paddles.h
+
+1295942381 source:/home/pontuso/funstuff/terminal/src/gear/pedals/brake.c
+	<pedals/brake.h>
+
+1280476098 source:/home/pontuso/funstuff/terminal/src/gear/pedals/paddles.c
+	"system/system.h"
+	"pedals/paddles.h"
+	"gearbox/controller.h"
+
+1290005090 source:/home/pontuso/funstuff/terminal/src/gear/rules/rules.c
+	<system/system.h>
+	<rules/rules.h>
+	<gearbox/gear.h>
+
+1281694588 source:/home/pontuso/funstuff/terminal/src/gear/drivers/gpio.c
+	<system/system.h>
+	"gpio.h"
+
+1290090968 /home/pontuso/funstuff/terminal/src/gear/pt/pt-factory.h
+
+1290005949 /home/pontuso/funstuff/terminal/src/gear/drivers/gpio.h
+
+1275997426 /home/pontuso/funstuff/terminal/src/gear/pedals/brake.h
+
+1281694588 source:/home/pontuso/funstuff/8051/gear/drivers/gpio.c
+	<system/system.h>
+	"gpio.h"
+
+1281432677 /home/pontuso/funstuff/8051/gear/system/system.h
+	<pt/pt.h>
+	<parameters/param_db.h>
+	<C8051F020.h>
+
+1290000891 /home/pontuso/funstuff/8051/gear/pt/pt.h
+	"lc.h"
+	"pt-factory.h"
+
+1150100568 /home/pontuso/funstuff/8051/gear/pt/lc.h
+	"lc-switch.h"
+
+1150100568 /home/pontuso/funstuff/8051/gear/pt/lc-switch.h
+
+1290090968 /home/pontuso/funstuff/8051/gear/pt/pt-factory.h
+
+1275048586 /home/pontuso/funstuff/8051/gear/parameters/param_db.h
+
+1290005949 /home/pontuso/funstuff/8051/gear/drivers/gpio.h
+
+1323439100 source:/home/pontuso/funstuff/8051/gear/gearbox/clutch.c
+	<system.h>
+	<gearbox/clutch.h>
+	<string.h>
+	<stdio.h>
+
+1290007135 /home/pontuso/funstuff/8051/gear/gearbox/clutch.h
+
+1323357232 source:/home/pontuso/funstuff/8051/gear/gearbox/controller.c
+	<system/system.h>
+	<gearbox/controller.h>
+	<rules/rules.h>
+	<gearbox/clutch.h>
+	<gearbox/gear.h>
+
+1290004982 /home/pontuso/funstuff/8051/gear/gearbox/controller.h
+	<pt/pt-sem.h>
+
+1109241419 /home/pontuso/funstuff/8051/gear/pt/pt-sem.h
+	"pt-sem.h"
+	"pt.h"
+
+1290005043 /home/pontuso/funstuff/8051/gear/rules/rules.h
+	<gearbox/controller.h>
+
+1290069021 /home/pontuso/funstuff/8051/gear/gearbox/gear.h
+
+1281702352 source:/home/pontuso/funstuff/8051/gear/gearbox/gear.c
+	<system.h>
+	<pt/pt.h>
+	<gearbox/gear.h>
+
+1323966892 source:/home/pontuso/funstuff/8051/gear/main.c
+	<system.h>
+	<gearbox/clutch.h>
+	<gearbox/gear.h>
+	<pedals/accelerator.h>
+	<pedals/paddles.h>
+	<parameters/parameters.h>
+	<gearbox/controller.h>
+	<stdio.h>
+
+1275053356 /home/pontuso/funstuff/8051/gear/pedals/accelerator.h
+
+1280223872 /home/pontuso/funstuff/8051/gear/pedals/paddles.h
+
+1275564550 /home/pontuso/funstuff/8051/gear/parameters/parameters.h
+
+1323438136 source:/home/pontuso/funstuff/8051/gear/parameters/host_parameters.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"parameters/parameters.h"
+	"parameters/param_db.h"
+
+1280145528 source:/home/pontuso/funstuff/8051/gear/pedals/accelerator.c
+	<float.h>
+	"system/system.h"
+	"pedals/accelerator.h"
+
+1323965704 source:/home/pontuso/funstuff/8051/gear/pedals/brake.c
+	<pedals/brake.h>
+
+1275997426 /home/pontuso/funstuff/8051/gear/pedals/brake.h
+
+1323439833 source:/home/pontuso/funstuff/8051/gear/pedals/paddles.c
+	"system/system.h"
+	"pedals/paddles.h"
+	"gearbox/controller.h"
+
+1290005090 source:/home/pontuso/funstuff/8051/gear/rules/rules.c
+	<system/system.h>
+	<rules/rules.h>
+	<gearbox/gear.h>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Host" />
+	<File name="doc.txt" open="0" top="0" tabpos="0">
+		<Cursor position="163" topLine="0" />
+	</File>
+	<File name="doxygen/html/clutch_8h-source.html" open="0" top="0" tabpos="0">
+		<Cursor position="5163" topLine="5" />
+	</File>
+	<File name="doxygen/html/system_8h-source.html" open="0" top="0" tabpos="0">
+		<Cursor position="8467" topLine="68" />
+	</File>
+	<File name="drivers/gpio.c" open="1" top="0" tabpos="10">
+		<Cursor position="831" topLine="0" />
+	</File>
+	<File name="drivers/gpio.h" open="1" top="0" tabpos="9">
+		<Cursor position="936" topLine="15" />
+	</File>
+	<File name="gearbox/clutch.c" open="1" top="0" tabpos="3">
+		<Cursor position="1769" topLine="42" />
+	</File>
+	<File name="gearbox/clutch.h" open="1" top="0" tabpos="5">
+		<Cursor position="1802" topLine="22" />
+	</File>
+	<File name="gearbox/controller.c" open="0" top="0" tabpos="6">
+		<Cursor position="3822" topLine="51" />
+	</File>
+	<File name="gearbox/controller.h" open="0" top="0" tabpos="4">
+		<Cursor position="1363" topLine="8" />
+	</File>
+	<File name="gearbox/gear.c" open="0" top="0" tabpos="5">
+		<Cursor position="1428" topLine="30" />
+	</File>
+	<File name="gearbox/gear.h" open="0" top="0" tabpos="6">
+		<Cursor position="2155" topLine="34" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1">
+		<Cursor position="1225" topLine="17" />
+	</File>
+	<File name="parameters/host_parameters.c" open="1" top="0" tabpos="2">
+		<Cursor position="2454" topLine="12" />
+	</File>
+	<File name="parameters/param_db.h" open="1" top="0" tabpos="12">
+		<Cursor position="877" topLine="0" />
+	</File>
+	<File name="parameters/parameters.h" open="1" top="0" tabpos="11">
+		<Cursor position="1305" topLine="41" />
+	</File>
+	<File name="parameters/target_parameters.c" open="1" top="0" tabpos="13">
+		<Cursor position="204" topLine="0" />
+	</File>
+	<File name="pedals/accelerator.c" open="1" top="0" tabpos="8">
+		<Cursor position="1918" topLine="33" />
+	</File>
+	<File name="pedals/accelerator.h" open="0" top="0" tabpos="4">
+		<Cursor position="1148" topLine="0" />
+	</File>
+	<File name="pedals/brake.c" open="1" top="0" tabpos="7">
+		<Cursor position="2502" topLine="18" />
+	</File>
+	<File name="pedals/paddles.c" open="1" top="0" tabpos="6">
+		<Cursor position="1422" topLine="27" />
+	</File>
+	<File name="pedals/paddles.h" open="0" top="0" tabpos="3">
+		<Cursor position="1187" topLine="2" />
+	</File>
+	<File name="pt/graham-pt.h" open="0" top="0" tabpos="13">
+		<Cursor position="3486" topLine="424" />
+	</File>
+	<File name="pt/pt-factory.h" open="1" top="1" tabpos="15">
+		<Cursor position="2135" topLine="86" />
+	</File>
+	<File name="pt/pt-sem.h" open="0" top="0" tabpos="9">
+		<Cursor position="1798" topLine="138" />
+	</File>
+	<File name="pt/pt.h" open="0" top="0" tabpos="14">
+		<Cursor position="4509" topLine="231" />
+	</File>
+	<File name="rules/rules.c" open="0" top="0" tabpos="7">
+		<Cursor position="907" topLine="0" />
+	</File>
+	<File name="rules/rules.h" open="1" top="0" tabpos="14">
+		<Cursor position="1054" topLine="0" />
+	</File>
+	<File name="system/system.h" open="1" top="0" tabpos="4">
+		<Cursor position="2569" topLine="27" />
+	</File>
+</CodeBlocks_layout_file>
